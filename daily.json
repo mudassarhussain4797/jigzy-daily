@@ -1,8 +1,147 @@
 {
-  "version": 1,
+  "version": 2,
   "start": "2026-11-23",
   "base": "https://cdn.jsdelivr.net/gh/mudassarhussain4797/jigzy-daily@main/",
+  "_themes": "mon=Landmarks  tue=Ocean  wed=Flowers  thu=Space  fri=Mosques & Islamic art  sat=Sweets & fun  sun=3D Animals",
+  "weekly": {
+    "mon": [
+      {
+        "file": "day_004.webp",
+        "title": "Balloon Morning"
+      },
+      {
+        "file": "day_011.webp",
+        "title": "Dusk Balloons"
+      },
+      {
+        "file": "day_020.webp",
+        "title": "Balloon Valley"
+      },
+      {
+        "file": "day_028.webp",
+        "title": "Desert Balloons"
+      }
+    ],
+    "tue": [
+      {
+        "file": "day_002.webp",
+        "title": "Pink Reef"
+      },
+      {
+        "file": "day_009.webp",
+        "title": "Deep Blue"
+      },
+      {
+        "file": "day_015.webp",
+        "title": "Violet Reef"
+      },
+      {
+        "file": "day_021.webp",
+        "title": "Lagoon Fish"
+      },
+      {
+        "file": "day_026.webp",
+        "title": "Rainbow Reef"
+      }
+    ],
+    "wed": [
+      {
+        "file": "day_005.webp",
+        "title": "Rose Garden"
+      },
+      {
+        "file": "day_008.webp",
+        "title": "Sunny Butterflies"
+      },
+      {
+        "file": "day_012.webp",
+        "title": "Blue Bloom"
+      },
+      {
+        "file": "day_019.webp",
+        "title": "Orange Blossom"
+      },
+      {
+        "file": "day_022.webp",
+        "title": "Forest Wings"
+      },
+      {
+        "file": "day_024.webp",
+        "title": "Pastel Meadow"
+      },
+      {
+        "file": "day_030.webp",
+        "title": "Color Garden"
+      }
+    ],
+    "thu": [
+      {
+        "file": "day_013.webp",
+        "title": "Neon Planet"
+      }
+    ],
+    "fri": [
+      {
+        "file": "day_006.webp",
+        "title": "Ruby Lanterns"
+      },
+      {
+        "file": "day_007.webp",
+        "title": "Jewel Window"
+      },
+      {
+        "file": "day_014.webp",
+        "title": "Midnight Lanterns"
+      },
+      {
+        "file": "day_016.webp",
+        "title": "Lime Glass"
+      },
+      {
+        "file": "day_023.webp",
+        "title": "Lantern Sky"
+      },
+      {
+        "file": "day_027.webp",
+        "title": "Fire Glass"
+      },
+      {
+        "file": "day_029.webp",
+        "title": "Purple Lanterns"
+      }
+    ],
+    "sat": [
+      {
+        "file": "day_003.webp",
+        "title": "Sunset Gumballs"
+      },
+      {
+        "file": "day_010.webp",
+        "title": "Jelly Party"
+      },
+      {
+        "file": "day_018.webp",
+        "title": "Candy Drops"
+      },
+      {
+        "file": "day_025.webp",
+        "title": "Glass Marbles"
+      }
+    ],
+    "sun": [
+      {
+        "file": "day_001.webp",
+        "title": "Animal Picnic"
+      },
+      {
+        "file": "day_017.webp",
+        "title": "Sky Party"
+      }
+    ]
+  },
   "special": {},
+  "special_PK": {},
+  "special_IN": {},
   "days": [
     {
       "file": "day_001.webp",
