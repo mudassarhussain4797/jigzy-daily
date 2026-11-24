@@ -1,89 +1,1535 @@
 {
-  "version": 2,
+  "version": 3,
   "start": "2026-11-23",
   "base": "https://cdn.jsdelivr.net/gh/mudassarhussain4797/jigzy-daily@main/",
-  "_themes": "mon=Landmarks  tue=Ocean  wed=Flowers  thu=Space  fri=Mosques & Islamic art  sat=Sweets & fun  sun=3D Animals",
+  "_themes": "mon=World Places  tue=Ocean & Wild Life  wed=Flowers & Gardens  thu=Space & Magic Worlds  fri=Palaces, Mosques & Dream Homes  sat=Sweets, Toys & Fun  sun=Cute Animals",
+  "_note": "Islamic dates are expected dates; change the YYYY-MM-DD key if the moon is seen a day later.",
   "weekly": {
     "mon": [
       {
-        "file": "mon_01.webp",
-        "title": "White Marble Palace"
+        "file": "mon01_eiffel_tower_garden.webp",
+        "title": "Eiffel Tower Garden"
       },
       {
-        "file": "mon_02.webp",
+        "file": "mon02_pyramids_at_sunset.webp",
         "title": "Pyramids at Sunset"
       },
       {
-        "file": "mon_03.webp",
-        "title": "City of Lights"
+        "file": "mon03_taj_mahal_reflections.webp",
+        "title": "Taj Mahal Reflections"
       },
       {
-        "file": "mon_04.webp",
-        "title": "Great Wall in Autumn"
-      },
-      {
-        "file": "mon_05.webp",
-        "title": "Paris at Night"
-      },
-      {
-        "file": "mon_06.webp",
+        "file": "mon04_island_of_blue_domes.webp",
         "title": "Island of Blue Domes"
       },
       {
-        "file": "mon_07.webp",
-        "title": "Lost City in the Clouds"
+        "file": "mon05_great_wall_in_autumn.webp",
+        "title": "Great Wall in Autumn"
       },
       {
-        "file": "mon_08.webp",
+        "file": "mon06_venice_canals.webp",
         "title": "Venice Canals"
+      },
+      {
+        "file": "mon07_city_in_the_clouds.webp",
+        "title": "City in the Clouds"
+      },
+      {
+        "file": "mon08_alpine_valley_village.webp",
+        "title": "Alpine Valley Village"
+      },
+      {
+        "file": "mon09_greek_harbor_town.webp",
+        "title": "Greek Harbor Town"
+      },
+      {
+        "file": "mon10_castle_town_in_the_hills.webp",
+        "title": "Castle Town in the Hills"
+      },
+      {
+        "file": "mon11_cherry_blossom_village.webp",
+        "title": "Cherry Blossom Village"
+      },
+      {
+        "file": "mon12_watermill_village.webp",
+        "title": "Watermill Village"
+      },
+      {
+        "file": "mon13_snowy_mountain_stream.webp",
+        "title": "Snowy Mountain Stream"
+      },
+      {
+        "file": "mon14_flower_market_street.webp",
+        "title": "Flower Market Street"
+      },
+      {
+        "file": "mon15_tiny_fairy_village.webp",
+        "title": "Tiny Fairy Village"
+      },
+      {
+        "file": "mon16_tropical_lagoon_village.webp",
+        "title": "Tropical Lagoon Village"
+      },
+      {
+        "file": "mon17_sky_lanterns_over_the_lake.webp",
+        "title": "Sky Lanterns over the Lake"
+      },
+      {
+        "file": "mon18_japanese_garden_house.webp",
+        "title": "Japanese Garden House"
+      },
+      {
+        "file": "mon19_city_of_tomorrow.webp",
+        "title": "City of Tomorrow"
+      },
+      {
+        "file": "mon20_autumn_forest_hamlet.webp",
+        "title": "Autumn Forest Hamlet"
+      },
+      {
+        "file": "mon21_marble_palace_at_dusk.webp",
+        "title": "Marble Palace at Dusk"
+      },
+      {
+        "file": "mon22_neon_night_city.webp",
+        "title": "Neon Night City"
+      },
+      {
+        "file": "mon23_sunny_beach_day.webp",
+        "title": "Sunny Beach Day"
+      },
+      {
+        "file": "mon24_country_farm_valley.webp",
+        "title": "Country Farm Valley"
+      }
+    ],
+    "tue": [
+      {
+        "file": "tue01_glowing_coral_kingdom.webp",
+        "title": "Glowing Coral Kingdom"
+      },
+      {
+        "file": "tue02_whale_and_baby.webp",
+        "title": "Whale and Baby"
+      },
+      {
+        "file": "tue03_lighthouse_sunset.webp",
+        "title": "Lighthouse Sunset"
+      },
+      {
+        "file": "tue04_little_submarine_adventure.webp",
+        "title": "Little Submarine Adventure"
+      },
+      {
+        "file": "tue05_savanna_playtime.webp",
+        "title": "Savanna Playtime"
+      },
+      {
+        "file": "tue06_dolphin_friends.webp",
+        "title": "Dolphin Friends"
+      },
+      {
+        "file": "tue07_sunken_ship_treasure.webp",
+        "title": "Sunken Ship Treasure"
+      },
+      {
+        "file": "tue08_polar_bear_family.webp",
+        "title": "Polar Bear Family"
+      },
+      {
+        "file": "tue09_sea_turtle_reef.webp",
+        "title": "Sea Turtle Reef"
+      },
+      {
+        "file": "tue10_penguins_build_a_snowman.webp",
+        "title": "Penguins Build a Snowman"
+      },
+      {
+        "file": "tue11_seashell_castle.webp",
+        "title": "Seashell Castle"
+      },
+      {
+        "file": "tue12_giraffes_at_the_waterhole.webp",
+        "title": "Giraffes at the Waterhole"
+      },
+      {
+        "file": "tue13_shipwreck_reef.webp",
+        "title": "Shipwreck Reef"
+      },
+      {
+        "file": "tue14_happy_baby_dolphin.webp",
+        "title": "Happy Baby Dolphin"
+      },
+      {
+        "file": "tue15_shell_tower_lagoon.webp",
+        "title": "Shell Tower Lagoon"
+      },
+      {
+        "file": "tue16_elephant_family.webp",
+        "title": "Elephant Family"
+      },
+      {
+        "file": "tue17_underwater_city.webp",
+        "title": "Underwater City"
+      },
+      {
+        "file": "tue18_penguin_winter_fair.webp",
+        "title": "Penguin Winter Fair"
+      },
+      {
+        "file": "tue19_lighthouse_on_the_rocks.webp",
+        "title": "Lighthouse on the Rocks"
+      },
+      {
+        "file": "tue20_elephant_splash_pool.webp",
+        "title": "Elephant Splash Pool"
+      },
+      {
+        "file": "tue21_deep_sea_domes.webp",
+        "title": "Deep Sea Domes"
+      },
+      {
+        "file": "tue22_swan_lake_garden.webp",
+        "title": "Swan Lake Garden"
+      },
+      {
+        "file": "tue23_wolves_of_the_forest.webp",
+        "title": "Wolves of the Forest"
+      },
+      {
+        "file": "tue24_beach_house_paradise.webp",
+        "title": "Beach House Paradise"
+      }
+    ],
+    "wed": [
+      {
+        "file": "wed01_rainbow_tulip_fields.webp",
+        "title": "Rainbow Tulip Fields"
+      },
+      {
+        "file": "wed02_cottage_garden.webp",
+        "title": "Cottage Garden"
+      },
+      {
+        "file": "wed03_sunflower_valley.webp",
+        "title": "Sunflower Valley"
+      },
+      {
+        "file": "wed04_secret_garden_fountain.webp",
+        "title": "Secret Garden Fountain"
+      },
+      {
+        "file": "wed05_butterfly_meadow.webp",
+        "title": "Butterfly Meadow"
+      },
+      {
+        "file": "wed06_lavender_cottage.webp",
+        "title": "Lavender Cottage"
+      },
+      {
+        "file": "wed07_paper_flower_garden.webp",
+        "title": "Paper Flower Garden"
+      },
+      {
+        "file": "wed08_peacock_garden.webp",
+        "title": "Peacock Garden"
+      },
+      {
+        "file": "wed09_lotus_flower_house.webp",
+        "title": "Lotus Flower House"
+      },
+      {
+        "file": "wed10_butterfly_jungle.webp",
+        "title": "Butterfly Jungle"
+      },
+      {
+        "file": "wed11_spring_fairy_gardens.webp",
+        "title": "Spring Fairy Gardens"
+      },
+      {
+        "file": "wed12_blue_bird_in_blossom.webp",
+        "title": "Blue Bird in Blossom"
+      },
+      {
+        "file": "wed13_flower_kingdom.webp",
+        "title": "Flower Kingdom"
+      },
+      {
+        "file": "wed14_sleepy_greenhouse.webp",
+        "title": "Sleepy Greenhouse"
+      },
+      {
+        "file": "wed15_mushroom_fairy_garden.webp",
+        "title": "Mushroom Fairy Garden"
+      },
+      {
+        "file": "wed16_rainforest_birds.webp",
+        "title": "Rainforest Birds"
+      },
+      {
+        "file": "wed17_tree_of_hearts.webp",
+        "title": "Tree of Hearts"
+      },
+      {
+        "file": "wed18_garden_waterfall_path.webp",
+        "title": "Garden Waterfall Path"
+      },
+      {
+        "file": "wed19_rose_arch_garden.webp",
+        "title": "Rose Arch Garden"
+      },
+      {
+        "file": "wed20_lovebirds_nest.webp",
+        "title": "Lovebirds Nest"
+      },
+      {
+        "file": "wed21_heart_rose_garden.webp",
+        "title": "Heart Rose Garden"
+      },
+      {
+        "file": "wed22_jungle_waterfalls.webp",
+        "title": "Jungle Waterfalls"
+      },
+      {
+        "file": "wed23_waterfall_safari.webp",
+        "title": "Waterfall Safari"
+      }
+    ],
+    "thu": [
+      {
+        "file": "thu01_little_robot_in_space.webp",
+        "title": "Little Robot in Space"
+      },
+      {
+        "file": "thu02_floating_kingdom.webp",
+        "title": "Floating Kingdom"
+      },
+      {
+        "file": "thu03_cat_astronaut_picnic.webp",
+        "title": "Cat Astronaut Picnic"
+      },
+      {
+        "file": "thu04_crystal_cave_bridge.webp",
+        "title": "Crystal Cave Bridge"
+      },
+      {
+        "file": "thu05_moon_base_gardens.webp",
+        "title": "Moon Base Gardens"
+      },
+      {
+        "file": "thu06_sky_islands.webp",
+        "title": "Sky Islands"
+      },
+      {
+        "file": "thu07_space_station_city.webp",
+        "title": "Space Station City"
+      },
+      {
+        "file": "thu08_crystal_castle_falls.webp",
+        "title": "Crystal Castle Falls"
+      },
+      {
+        "file": "thu09_planets_in_a_row.webp",
+        "title": "Planets in a Row"
+      },
+      {
+        "file": "thu10_ice_kingdom.webp",
+        "title": "Ice Kingdom"
+      },
+      {
+        "file": "thu11_galaxy_station.webp",
+        "title": "Galaxy Station"
+      },
+      {
+        "file": "thu12_floating_castle.webp",
+        "title": "Floating Castle"
+      },
+      {
+        "file": "thu13_enchanted_forest_falls.webp",
+        "title": "Enchanted Forest Falls"
+      },
+      {
+        "file": "thu14_starship_fleet.webp",
+        "title": "Starship Fleet"
+      },
+      {
+        "file": "thu15_sky_garden_islands.webp",
+        "title": "Sky Garden Islands"
+      },
+      {
+        "file": "thu16_valley_of_dinosaurs.webp",
+        "title": "Valley of Dinosaurs"
+      },
+      {
+        "file": "thu17_floating_cottage.webp",
+        "title": "Floating Cottage"
+      },
+      {
+        "file": "thu18_jungle_kingdom.webp",
+        "title": "Jungle Kingdom"
+      },
+      {
+        "file": "thu19_deer_in_the_forest.webp",
+        "title": "Deer in the Forest"
+      },
+      {
+        "file": "thu20_fox_family_den.webp",
+        "title": "Fox Family Den"
+      },
+      {
+        "file": "thu21_heart_island.webp",
+        "title": "Heart Island"
+      },
+      {
+        "file": "thu22_owls_of_the_night_wood.webp",
+        "title": "Owls of the Night Wood"
+      },
+      {
+        "file": "thu23_treehouse_friends.webp",
+        "title": "Treehouse Friends"
+      },
+      {
+        "file": "thu24_heart_waterfall.webp",
+        "title": "Heart Waterfall"
       }
     ],
     "fri": [
       {
-        "file": "fri_01.webp",
+        "file": "fri01_red_sandstone_mosque.webp",
         "title": "Red Sandstone Mosque"
+      },
+      {
+        "file": "fri02_golden_palace.webp",
+        "title": "Golden Palace"
+      },
+      {
+        "file": "fri03_city_of_golden_domes.webp",
+        "title": "City of Golden Domes"
+      },
+      {
+        "file": "fri04_snowy_chalet.webp",
+        "title": "Snowy Chalet"
+      },
+      {
+        "file": "fri05_desert_palace_pool.webp",
+        "title": "Desert Palace Pool"
+      },
+      {
+        "file": "fri06_giant_treehouse.webp",
+        "title": "Giant Treehouse"
+      },
+      {
+        "file": "fri07_royal_garden_palace.webp",
+        "title": "Royal Garden Palace"
+      },
+      {
+        "file": "fri08_seaside_villa.webp",
+        "title": "Seaside Villa"
+      },
+      {
+        "file": "fri09_desert_oasis_town.webp",
+        "title": "Desert Oasis Town"
+      },
+      {
+        "file": "fri10_mountain_lodge.webp",
+        "title": "Mountain Lodge"
+      },
+      {
+        "file": "fri11_lantern_bazaar.webp",
+        "title": "Lantern Bazaar"
+      },
+      {
+        "file": "fri12_rose_cottage.webp",
+        "title": "Rose Cottage"
+      },
+      {
+        "file": "fri13_grand_manor.webp",
+        "title": "Grand Manor"
+      },
+      {
+        "file": "fri14_autumn_treehouses.webp",
+        "title": "Autumn Treehouses"
+      },
+      {
+        "file": "fri15_glass_house.webp",
+        "title": "Glass House"
+      },
+      {
+        "file": "fri16_mushroom_house.webp",
+        "title": "Mushroom House"
+      },
+      {
+        "file": "fri17_storybook_mansion.webp",
+        "title": "Storybook Mansion"
+      },
+      {
+        "file": "fri18_mushroom_village.webp",
+        "title": "Mushroom Village"
+      },
+      {
+        "file": "fri19_modern_hill_villa.webp",
+        "title": "Modern Hill Villa"
+      },
+      {
+        "file": "fri20_happy_family_home.webp",
+        "title": "Happy Family Home"
+      },
+      {
+        "file": "fri21_rose_palace_gate.webp",
+        "title": "Rose Palace Gate"
+      },
+      {
+        "file": "fri22_glowing_mushroom_town.webp",
+        "title": "Glowing Mushroom Town"
+      },
+      {
+        "file": "fri23_grand_dollhouse.webp",
+        "title": "Grand Dollhouse"
+      }
+    ],
+    "sat": [
+      {
+        "file": "sat01_candy_village.webp",
+        "title": "Candy Village"
+      },
+      {
+        "file": "sat02_toy_shop.webp",
+        "title": "Toy Shop"
+      },
+      {
+        "file": "sat03_ice_cream_festival.webp",
+        "title": "Ice Cream Festival"
+      },
+      {
+        "file": "sat04_hot_air_balloon_day.webp",
+        "title": "Hot Air Balloon Day"
+      },
+      {
+        "file": "sat05_chocolate_wonderland.webp",
+        "title": "Chocolate Wonderland"
+      },
+      {
+        "file": "sat06_fun_fair_at_sunset.webp",
+        "title": "Fun Fair at Sunset"
+      },
+      {
+        "file": "sat07_gingerbread_house.webp",
+        "title": "Gingerbread House"
+      },
+      {
+        "file": "sat08_fox_family_picnic.webp",
+        "title": "Fox Family Picnic"
+      },
+      {
+        "file": "sat09_candy_land_river.webp",
+        "title": "Candy Land River"
+      },
+      {
+        "file": "sat10_stained_glass_sun.webp",
+        "title": "Stained Glass Sun"
+      },
+      {
+        "file": "sat11_balloon_festival.webp",
+        "title": "Balloon Festival"
+      },
+      {
+        "file": "sat12_artist_workshop.webp",
+        "title": "Artist Workshop"
+      },
+      {
+        "file": "sat13_glass_bottle_shelf.webp",
+        "title": "Glass Bottle Shelf"
+      },
+      {
+        "file": "sat14_theme_park_lights.webp",
+        "title": "Theme Park Lights"
+      },
+      {
+        "file": "sat15_teddy_bear_friends.webp",
+        "title": "Teddy Bear Friends"
+      },
+      {
+        "file": "sat16_craft_table.webp",
+        "title": "Craft Table"
+      },
+      {
+        "file": "sat17_farmyard_morning.webp",
+        "title": "Farmyard Morning"
+      },
+      {
+        "file": "sat18_gift_wonderland.webp",
+        "title": "Gift Wonderland"
+      },
+      {
+        "file": "sat19_puppies_and_kittens.webp",
+        "title": "Puppies and Kittens"
+      },
+      {
+        "file": "sat20_heart_castle.webp",
+        "title": "Heart Castle"
+      },
+      {
+        "file": "sat21_puppy_pals.webp",
+        "title": "Puppy Pals"
+      },
+      {
+        "file": "sat22_candy_heart_castle.webp",
+        "title": "Candy Heart Castle"
+      },
+      {
+        "file": "sat23_balloon_kingdom.webp",
+        "title": "Balloon Kingdom"
+      }
+    ],
+    "sun": [
+      {
+        "file": "sun01_little_fox.webp",
+        "title": "Little Fox"
+      },
+      {
+        "file": "sun02_baby_panda.webp",
+        "title": "Baby Panda"
+      },
+      {
+        "file": "sun03_ginger_kitten.webp",
+        "title": "Ginger Kitten"
+      },
+      {
+        "file": "sun04_tiger_cub_explorer.webp",
+        "title": "Tiger Cub Explorer"
+      },
+      {
+        "file": "sun05_golden_puppy.webp",
+        "title": "Golden Puppy"
+      },
+      {
+        "file": "sun06_penguin_in_crystal_land.webp",
+        "title": "Penguin in Crystal Land"
+      },
+      {
+        "file": "sun07_baby_koala.webp",
+        "title": "Baby Koala"
+      },
+      {
+        "file": "sun08_red_panda_reader.webp",
+        "title": "Red Panda Reader"
+      },
+      {
+        "file": "sun09_little_foal.webp",
+        "title": "Little Foal"
+      },
+      {
+        "file": "sun10_rainbow_parrot.webp",
+        "title": "Rainbow Parrot"
+      },
+      {
+        "file": "sun11_hedgehog_in_the_rain.webp",
+        "title": "Hedgehog in the Rain"
+      },
+      {
+        "file": "sun12_baby_giraffe.webp",
+        "title": "Baby Giraffe"
+      },
+      {
+        "file": "sun13_little_lamb.webp",
+        "title": "Little Lamb"
+      },
+      {
+        "file": "sun14_baby_monkey.webp",
+        "title": "Baby Monkey"
+      },
+      {
+        "file": "sun15_bunny_in_the_garden.webp",
+        "title": "Bunny in the Garden"
+      },
+      {
+        "file": "sun16_zebra_in_a_hoodie.webp",
+        "title": "Zebra in a Hoodie"
+      },
+      {
+        "file": "sun17_wise_little_owl.webp",
+        "title": "Wise Little Owl"
+      },
+      {
+        "file": "sun18_baby_elephant.webp",
+        "title": "Baby Elephant"
+      },
+      {
+        "file": "sun19_raccoon_gardener.webp",
+        "title": "Raccoon Gardener"
+      },
+      {
+        "file": "sun20_lion_cub_prince.webp",
+        "title": "Lion Cub Prince"
+      },
+      {
+        "file": "sun21_squirrel_in_a_sweater.webp",
+        "title": "Squirrel in a Sweater"
+      },
+      {
+        "file": "sun22_baby_fawn.webp",
+        "title": "Baby Fawn"
+      },
+      {
+        "file": "sun23_happy_chimp.webp",
+        "title": "Happy Chimp"
+      },
+      {
+        "file": "sun24_panda_pair.webp",
+        "title": "Panda Pair"
+      },
+      {
+        "file": "sun25_elephant_splash.webp",
+        "title": "Elephant Splash"
+      },
+      {
+        "file": "sun26_fawn_friends.webp",
+        "title": "Fawn Friends"
+      },
+      {
+        "file": "sun27_king_of_the_hills.webp",
+        "title": "King of the Hills"
+      },
+      {
+        "file": "sun28_jungle_tiger.webp",
+        "title": "Jungle Tiger"
       }
     ]
   },
-  "special": {},
-  "special_PK": {},
-  "special_IN": {},
+  "special": {
+    "01-01": {
+      "file": "special_new_year_fireworks.webp",
+      "title": "Happy New Year"
+    },
+    "03-20": {
+      "file": "wed11_spring_fairy_gardens.webp",
+      "title": "First Day of Spring"
+    },
+    "04-22": {
+      "file": "wed22_jungle_waterfalls.webp",
+      "title": "Earth Day"
+    },
+    "05-20": {
+      "file": "wed03_sunflower_valley.webp",
+      "title": "World Bee Day"
+    },
+    "06-05": {
+      "file": "thu13_enchanted_forest_falls.webp",
+      "title": "World Environment Day"
+    },
+    "06-08": {
+      "file": "tue01_glowing_coral_kingdom.webp",
+      "title": "World Oceans Day"
+    },
+    "06-21": {
+      "file": "mon16_tropical_lagoon_village.webp",
+      "title": "First Day of Summer"
+    },
+    "07-29": {
+      "file": "sun28_jungle_tiger.webp",
+      "title": "International Tiger Day"
+    },
+    "09-22": {
+      "file": "mon20_autumn_forest_hamlet.webp",
+      "title": "First Day of Autumn"
+    },
+    "09-27": {
+      "file": "mon04_island_of_blue_domes.webp",
+      "title": "World Tourism Day"
+    },
+    "10-04": {
+      "file": "tue05_savanna_playtime.webp",
+      "title": "World Animal Day"
+    },
+    "10-16": {
+      "file": "sat03_ice_cream_festival.webp",
+      "title": "World Food Day"
+    },
+    "11-20": {
+      "file": "sat02_toy_shop.webp",
+      "title": "World Children's Day"
+    },
+    "12-21": {
+      "file": "thu10_ice_kingdom.webp",
+      "title": "First Day of Winter"
+    },
+    "2027-01-05": {
+      "file": "fri01_red_sandstone_mosque.webp",
+      "title": "Shab-e-Miraj"
+    },
+    "2027-01-24": {
+      "file": "special_crescent_moon_night.webp",
+      "title": "Shab-e-Barat"
+    },
+    "2027-02-08": {
+      "file": "special_ramadan_mubarak.webp",
+      "title": "Ramadan Mubarak"
+    },
+    "2027-02-09": {
+      "file": "fri01_red_sandstone_mosque.webp",
+      "title": "First Fast of Ramadan"
+    },
+    "2027-02-12": {
+      "file": "special_ramadan_night_courtyard.webp",
+      "title": "Ramadan Jummah"
+    },
+    "2027-02-19": {
+      "file": "fri11_lantern_bazaar.webp",
+      "title": "Ramadan Lantern Bazaar"
+    },
+    "2027-02-22": {
+      "file": "fri03_city_of_golden_domes.webp",
+      "title": "Middle of Ramadan"
+    },
+    "2027-02-26": {
+      "file": "fri09_desert_oasis_town.webp",
+      "title": "Ramadan Oasis"
+    },
+    "2027-03-05": {
+      "file": "fri02_golden_palace.webp",
+      "title": "Last Jummah of Ramadan"
+    },
+    "2027-03-06": {
+      "file": "special_crescent_moon_night.webp",
+      "title": "Night of Power"
+    },
+    "2027-03-09": {
+      "file": "special_eid_mubarak.webp",
+      "title": "Eid Mubarak"
+    },
+    "2027-03-10": {
+      "file": "special_eid_mubarak.webp",
+      "title": "Eid Mubarak"
+    },
+    "2027-03-11": {
+      "file": "sat06_fun_fair_at_sunset.webp",
+      "title": "Eid Fun Fair"
+    },
+    "2027-05-16": {
+      "file": "special_eid_ul_adha.webp",
+      "title": "Eid ul Adha Mubarak"
+    },
+    "2027-05-17": {
+      "file": "special_eid_ul_adha.webp",
+      "title": "Eid ul Adha Mubarak"
+    },
+    "2027-05-18": {
+      "file": "sat17_farmyard_morning.webp",
+      "title": "Eid ul Adha Farmyard"
+    },
+    "2027-06-06": {
+      "file": "special_ramadan_mubarak.webp",
+      "title": "Islamic New Year"
+    },
+    "2027-08-16": {
+      "file": "special_ramadan_night_courtyard.webp",
+      "title": "Milad-un-Nabi"
+    }
+  },
+  "special_PK": {
+    "03-23": {
+      "file": "special_pakistan_minar.webp",
+      "title": "Pakistan Day"
+    },
+    "08-14": {
+      "file": "special_pakistan_minar.webp",
+      "title": "Independence Day"
+    },
+    "09-06": {
+      "file": "special_pakistan_minar.webp",
+      "title": "Defence Day"
+    },
+    "12-25": {
+      "file": "special_pakistan_minar.webp",
+      "title": "Quaid Day"
+    }
+  },
+  "special_IN": {
+    "01-26": {
+      "file": "mon21_marble_palace_at_dusk.webp",
+      "title": "Republic Day"
+    },
+    "08-15": {
+      "file": "mon03_taj_mahal_reflections.webp",
+      "title": "Independence Day"
+    }
+  },
   "days": [
     {
-      "file": "mon_01.webp",
-      "title": "White Marble Palace"
+      "file": "mon01_eiffel_tower_garden.webp",
+      "title": "Eiffel Tower Garden"
     },
     {
-      "file": "mon_02.webp",
+      "file": "mon02_pyramids_at_sunset.webp",
       "title": "Pyramids at Sunset"
     },
     {
-      "file": "mon_03.webp",
-      "title": "City of Lights"
+      "file": "mon03_taj_mahal_reflections.webp",
+      "title": "Taj Mahal Reflections"
     },
     {
-      "file": "mon_04.webp",
-      "title": "Great Wall in Autumn"
-    },
-    {
-      "file": "mon_05.webp",
-      "title": "Paris at Night"
-    },
-    {
-      "file": "mon_06.webp",
+      "file": "mon04_island_of_blue_domes.webp",
       "title": "Island of Blue Domes"
     },
     {
-      "file": "mon_07.webp",
-      "title": "Lost City in the Clouds"
+      "file": "mon05_great_wall_in_autumn.webp",
+      "title": "Great Wall in Autumn"
     },
     {
-      "file": "mon_08.webp",
+      "file": "mon06_venice_canals.webp",
       "title": "Venice Canals"
     },
     {
-      "file": "fri_01.webp",
+      "file": "mon07_city_in_the_clouds.webp",
+      "title": "City in the Clouds"
+    },
+    {
+      "file": "mon08_alpine_valley_village.webp",
+      "title": "Alpine Valley Village"
+    },
+    {
+      "file": "mon09_greek_harbor_town.webp",
+      "title": "Greek Harbor Town"
+    },
+    {
+      "file": "mon10_castle_town_in_the_hills.webp",
+      "title": "Castle Town in the Hills"
+    },
+    {
+      "file": "mon11_cherry_blossom_village.webp",
+      "title": "Cherry Blossom Village"
+    },
+    {
+      "file": "mon12_watermill_village.webp",
+      "title": "Watermill Village"
+    },
+    {
+      "file": "mon13_snowy_mountain_stream.webp",
+      "title": "Snowy Mountain Stream"
+    },
+    {
+      "file": "mon14_flower_market_street.webp",
+      "title": "Flower Market Street"
+    },
+    {
+      "file": "mon15_tiny_fairy_village.webp",
+      "title": "Tiny Fairy Village"
+    },
+    {
+      "file": "mon16_tropical_lagoon_village.webp",
+      "title": "Tropical Lagoon Village"
+    },
+    {
+      "file": "mon17_sky_lanterns_over_the_lake.webp",
+      "title": "Sky Lanterns over the Lake"
+    },
+    {
+      "file": "mon18_japanese_garden_house.webp",
+      "title": "Japanese Garden House"
+    },
+    {
+      "file": "mon19_city_of_tomorrow.webp",
+      "title": "City of Tomorrow"
+    },
+    {
+      "file": "mon20_autumn_forest_hamlet.webp",
+      "title": "Autumn Forest Hamlet"
+    },
+    {
+      "file": "mon21_marble_palace_at_dusk.webp",
+      "title": "Marble Palace at Dusk"
+    },
+    {
+      "file": "mon22_neon_night_city.webp",
+      "title": "Neon Night City"
+    },
+    {
+      "file": "mon23_sunny_beach_day.webp",
+      "title": "Sunny Beach Day"
+    },
+    {
+      "file": "mon24_country_farm_valley.webp",
+      "title": "Country Farm Valley"
+    },
+    {
+      "file": "tue01_glowing_coral_kingdom.webp",
+      "title": "Glowing Coral Kingdom"
+    },
+    {
+      "file": "tue02_whale_and_baby.webp",
+      "title": "Whale and Baby"
+    },
+    {
+      "file": "tue03_lighthouse_sunset.webp",
+      "title": "Lighthouse Sunset"
+    },
+    {
+      "file": "tue04_little_submarine_adventure.webp",
+      "title": "Little Submarine Adventure"
+    },
+    {
+      "file": "tue05_savanna_playtime.webp",
+      "title": "Savanna Playtime"
+    },
+    {
+      "file": "tue06_dolphin_friends.webp",
+      "title": "Dolphin Friends"
+    },
+    {
+      "file": "tue07_sunken_ship_treasure.webp",
+      "title": "Sunken Ship Treasure"
+    },
+    {
+      "file": "tue08_polar_bear_family.webp",
+      "title": "Polar Bear Family"
+    },
+    {
+      "file": "tue09_sea_turtle_reef.webp",
+      "title": "Sea Turtle Reef"
+    },
+    {
+      "file": "tue10_penguins_build_a_snowman.webp",
+      "title": "Penguins Build a Snowman"
+    },
+    {
+      "file": "tue11_seashell_castle.webp",
+      "title": "Seashell Castle"
+    },
+    {
+      "file": "tue12_giraffes_at_the_waterhole.webp",
+      "title": "Giraffes at the Waterhole"
+    },
+    {
+      "file": "tue13_shipwreck_reef.webp",
+      "title": "Shipwreck Reef"
+    },
+    {
+      "file": "tue14_happy_baby_dolphin.webp",
+      "title": "Happy Baby Dolphin"
+    },
+    {
+      "file": "tue15_shell_tower_lagoon.webp",
+      "title": "Shell Tower Lagoon"
+    },
+    {
+      "file": "tue16_elephant_family.webp",
+      "title": "Elephant Family"
+    },
+    {
+      "file": "tue17_underwater_city.webp",
+      "title": "Underwater City"
+    },
+    {
+      "file": "tue18_penguin_winter_fair.webp",
+      "title": "Penguin Winter Fair"
+    },
+    {
+      "file": "tue19_lighthouse_on_the_rocks.webp",
+      "title": "Lighthouse on the Rocks"
+    },
+    {
+      "file": "tue20_elephant_splash_pool.webp",
+      "title": "Elephant Splash Pool"
+    },
+    {
+      "file": "tue21_deep_sea_domes.webp",
+      "title": "Deep Sea Domes"
+    },
+    {
+      "file": "tue22_swan_lake_garden.webp",
+      "title": "Swan Lake Garden"
+    },
+    {
+      "file": "tue23_wolves_of_the_forest.webp",
+      "title": "Wolves of the Forest"
+    },
+    {
+      "file": "tue24_beach_house_paradise.webp",
+      "title": "Beach House Paradise"
+    },
+    {
+      "file": "wed01_rainbow_tulip_fields.webp",
+      "title": "Rainbow Tulip Fields"
+    },
+    {
+      "file": "wed02_cottage_garden.webp",
+      "title": "Cottage Garden"
+    },
+    {
+      "file": "wed03_sunflower_valley.webp",
+      "title": "Sunflower Valley"
+    },
+    {
+      "file": "wed04_secret_garden_fountain.webp",
+      "title": "Secret Garden Fountain"
+    },
+    {
+      "file": "wed05_butterfly_meadow.webp",
+      "title": "Butterfly Meadow"
+    },
+    {
+      "file": "wed06_lavender_cottage.webp",
+      "title": "Lavender Cottage"
+    },
+    {
+      "file": "wed07_paper_flower_garden.webp",
+      "title": "Paper Flower Garden"
+    },
+    {
+      "file": "wed08_peacock_garden.webp",
+      "title": "Peacock Garden"
+    },
+    {
+      "file": "wed09_lotus_flower_house.webp",
+      "title": "Lotus Flower House"
+    },
+    {
+      "file": "wed10_butterfly_jungle.webp",
+      "title": "Butterfly Jungle"
+    },
+    {
+      "file": "wed11_spring_fairy_gardens.webp",
+      "title": "Spring Fairy Gardens"
+    },
+    {
+      "file": "wed12_blue_bird_in_blossom.webp",
+      "title": "Blue Bird in Blossom"
+    },
+    {
+      "file": "wed13_flower_kingdom.webp",
+      "title": "Flower Kingdom"
+    },
+    {
+      "file": "wed14_sleepy_greenhouse.webp",
+      "title": "Sleepy Greenhouse"
+    },
+    {
+      "file": "wed15_mushroom_fairy_garden.webp",
+      "title": "Mushroom Fairy Garden"
+    },
+    {
+      "file": "wed16_rainforest_birds.webp",
+      "title": "Rainforest Birds"
+    },
+    {
+      "file": "wed17_tree_of_hearts.webp",
+      "title": "Tree of Hearts"
+    },
+    {
+      "file": "wed18_garden_waterfall_path.webp",
+      "title": "Garden Waterfall Path"
+    },
+    {
+      "file": "wed19_rose_arch_garden.webp",
+      "title": "Rose Arch Garden"
+    },
+    {
+      "file": "wed20_lovebirds_nest.webp",
+      "title": "Lovebirds Nest"
+    },
+    {
+      "file": "wed21_heart_rose_garden.webp",
+      "title": "Heart Rose Garden"
+    },
+    {
+      "file": "wed22_jungle_waterfalls.webp",
+      "title": "Jungle Waterfalls"
+    },
+    {
+      "file": "wed23_waterfall_safari.webp",
+      "title": "Waterfall Safari"
+    },
+    {
+      "file": "thu01_little_robot_in_space.webp",
+      "title": "Little Robot in Space"
+    },
+    {
+      "file": "thu02_floating_kingdom.webp",
+      "title": "Floating Kingdom"
+    },
+    {
+      "file": "thu03_cat_astronaut_picnic.webp",
+      "title": "Cat Astronaut Picnic"
+    },
+    {
+      "file": "thu04_crystal_cave_bridge.webp",
+      "title": "Crystal Cave Bridge"
+    },
+    {
+      "file": "thu05_moon_base_gardens.webp",
+      "title": "Moon Base Gardens"
+    },
+    {
+      "file": "thu06_sky_islands.webp",
+      "title": "Sky Islands"
+    },
+    {
+      "file": "thu07_space_station_city.webp",
+      "title": "Space Station City"
+    },
+    {
+      "file": "thu08_crystal_castle_falls.webp",
+      "title": "Crystal Castle Falls"
+    },
+    {
+      "file": "thu09_planets_in_a_row.webp",
+      "title": "Planets in a Row"
+    },
+    {
+      "file": "thu10_ice_kingdom.webp",
+      "title": "Ice Kingdom"
+    },
+    {
+      "file": "thu11_galaxy_station.webp",
+      "title": "Galaxy Station"
+    },
+    {
+      "file": "thu12_floating_castle.webp",
+      "title": "Floating Castle"
+    },
+    {
+      "file": "thu13_enchanted_forest_falls.webp",
+      "title": "Enchanted Forest Falls"
+    },
+    {
+      "file": "thu14_starship_fleet.webp",
+      "title": "Starship Fleet"
+    },
+    {
+      "file": "thu15_sky_garden_islands.webp",
+      "title": "Sky Garden Islands"
+    },
+    {
+      "file": "thu16_valley_of_dinosaurs.webp",
+      "title": "Valley of Dinosaurs"
+    },
+    {
+      "file": "thu17_floating_cottage.webp",
+      "title": "Floating Cottage"
+    },
+    {
+      "file": "thu18_jungle_kingdom.webp",
+      "title": "Jungle Kingdom"
+    },
+    {
+      "file": "thu19_deer_in_the_forest.webp",
+      "title": "Deer in the Forest"
+    },
+    {
+      "file": "thu20_fox_family_den.webp",
+      "title": "Fox Family Den"
+    },
+    {
+      "file": "thu21_heart_island.webp",
+      "title": "Heart Island"
+    },
+    {
+      "file": "thu22_owls_of_the_night_wood.webp",
+      "title": "Owls of the Night Wood"
+    },
+    {
+      "file": "thu23_treehouse_friends.webp",
+      "title": "Treehouse Friends"
+    },
+    {
+      "file": "thu24_heart_waterfall.webp",
+      "title": "Heart Waterfall"
+    },
+    {
+      "file": "fri01_red_sandstone_mosque.webp",
       "title": "Red Sandstone Mosque"
+    },
+    {
+      "file": "fri02_golden_palace.webp",
+      "title": "Golden Palace"
+    },
+    {
+      "file": "fri03_city_of_golden_domes.webp",
+      "title": "City of Golden Domes"
+    },
+    {
+      "file": "fri04_snowy_chalet.webp",
+      "title": "Snowy Chalet"
+    },
+    {
+      "file": "fri05_desert_palace_pool.webp",
+      "title": "Desert Palace Pool"
+    },
+    {
+      "file": "fri06_giant_treehouse.webp",
+      "title": "Giant Treehouse"
+    },
+    {
+      "file": "fri07_royal_garden_palace.webp",
+      "title": "Royal Garden Palace"
+    },
+    {
+      "file": "fri08_seaside_villa.webp",
+      "title": "Seaside Villa"
+    },
+    {
+      "file": "fri09_desert_oasis_town.webp",
+      "title": "Desert Oasis Town"
+    },
+    {
+      "file": "fri10_mountain_lodge.webp",
+      "title": "Mountain Lodge"
+    },
+    {
+      "file": "fri11_lantern_bazaar.webp",
+      "title": "Lantern Bazaar"
+    },
+    {
+      "file": "fri12_rose_cottage.webp",
+      "title": "Rose Cottage"
+    },
+    {
+      "file": "fri13_grand_manor.webp",
+      "title": "Grand Manor"
+    },
+    {
+      "file": "fri14_autumn_treehouses.webp",
+      "title": "Autumn Treehouses"
+    },
+    {
+      "file": "fri15_glass_house.webp",
+      "title": "Glass House"
+    },
+    {
+      "file": "fri16_mushroom_house.webp",
+      "title": "Mushroom House"
+    },
+    {
+      "file": "fri17_storybook_mansion.webp",
+      "title": "Storybook Mansion"
+    },
+    {
+      "file": "fri18_mushroom_village.webp",
+      "title": "Mushroom Village"
+    },
+    {
+      "file": "fri19_modern_hill_villa.webp",
+      "title": "Modern Hill Villa"
+    },
+    {
+      "file": "fri20_happy_family_home.webp",
+      "title": "Happy Family Home"
+    },
+    {
+      "file": "fri21_rose_palace_gate.webp",
+      "title": "Rose Palace Gate"
+    },
+    {
+      "file": "fri22_glowing_mushroom_town.webp",
+      "title": "Glowing Mushroom Town"
+    },
+    {
+      "file": "fri23_grand_dollhouse.webp",
+      "title": "Grand Dollhouse"
+    },
+    {
+      "file": "sat01_candy_village.webp",
+      "title": "Candy Village"
+    },
+    {
+      "file": "sat02_toy_shop.webp",
+      "title": "Toy Shop"
+    },
+    {
+      "file": "sat03_ice_cream_festival.webp",
+      "title": "Ice Cream Festival"
+    },
+    {
+      "file": "sat04_hot_air_balloon_day.webp",
+      "title": "Hot Air Balloon Day"
+    },
+    {
+      "file": "sat05_chocolate_wonderland.webp",
+      "title": "Chocolate Wonderland"
+    },
+    {
+      "file": "sat06_fun_fair_at_sunset.webp",
+      "title": "Fun Fair at Sunset"
+    },
+    {
+      "file": "sat07_gingerbread_house.webp",
+      "title": "Gingerbread House"
+    },
+    {
+      "file": "sat08_fox_family_picnic.webp",
+      "title": "Fox Family Picnic"
+    },
+    {
+      "file": "sat09_candy_land_river.webp",
+      "title": "Candy Land River"
+    },
+    {
+      "file": "sat10_stained_glass_sun.webp",
+      "title": "Stained Glass Sun"
+    },
+    {
+      "file": "sat11_balloon_festival.webp",
+      "title": "Balloon Festival"
+    },
+    {
+      "file": "sat12_artist_workshop.webp",
+      "title": "Artist Workshop"
+    },
+    {
+      "file": "sat13_glass_bottle_shelf.webp",
+      "title": "Glass Bottle Shelf"
+    },
+    {
+      "file": "sat14_theme_park_lights.webp",
+      "title": "Theme Park Lights"
+    },
+    {
+      "file": "sat15_teddy_bear_friends.webp",
+      "title": "Teddy Bear Friends"
+    },
+    {
+      "file": "sat16_craft_table.webp",
+      "title": "Craft Table"
+    },
+    {
+      "file": "sat17_farmyard_morning.webp",
+      "title": "Farmyard Morning"
+    },
+    {
+      "file": "sat18_gift_wonderland.webp",
+      "title": "Gift Wonderland"
+    },
+    {
+      "file": "sat19_puppies_and_kittens.webp",
+      "title": "Puppies and Kittens"
+    },
+    {
+      "file": "sat20_heart_castle.webp",
+      "title": "Heart Castle"
+    },
+    {
+      "file": "sat21_puppy_pals.webp",
+      "title": "Puppy Pals"
+    },
+    {
+      "file": "sat22_candy_heart_castle.webp",
+      "title": "Candy Heart Castle"
+    },
+    {
+      "file": "sat23_balloon_kingdom.webp",
+      "title": "Balloon Kingdom"
+    },
+    {
+      "file": "sun01_little_fox.webp",
+      "title": "Little Fox"
+    },
+    {
+      "file": "sun02_baby_panda.webp",
+      "title": "Baby Panda"
+    },
+    {
+      "file": "sun03_ginger_kitten.webp",
+      "title": "Ginger Kitten"
+    },
+    {
+      "file": "sun04_tiger_cub_explorer.webp",
+      "title": "Tiger Cub Explorer"
+    },
+    {
+      "file": "sun05_golden_puppy.webp",
+      "title": "Golden Puppy"
+    },
+    {
+      "file": "sun06_penguin_in_crystal_land.webp",
+      "title": "Penguin in Crystal Land"
+    },
+    {
+      "file": "sun07_baby_koala.webp",
+      "title": "Baby Koala"
+    },
+    {
+      "file": "sun08_red_panda_reader.webp",
+      "title": "Red Panda Reader"
+    },
+    {
+      "file": "sun09_little_foal.webp",
+      "title": "Little Foal"
+    },
+    {
+      "file": "sun10_rainbow_parrot.webp",
+      "title": "Rainbow Parrot"
+    },
+    {
+      "file": "sun11_hedgehog_in_the_rain.webp",
+      "title": "Hedgehog in the Rain"
+    },
+    {
+      "file": "sun12_baby_giraffe.webp",
+      "title": "Baby Giraffe"
+    },
+    {
+      "file": "sun13_little_lamb.webp",
+      "title": "Little Lamb"
+    },
+    {
+      "file": "sun14_baby_monkey.webp",
+      "title": "Baby Monkey"
+    },
+    {
+      "file": "sun15_bunny_in_the_garden.webp",
+      "title": "Bunny in the Garden"
+    },
+    {
+      "file": "sun16_zebra_in_a_hoodie.webp",
+      "title": "Zebra in a Hoodie"
+    },
+    {
+      "file": "sun17_wise_little_owl.webp",
+      "title": "Wise Little Owl"
+    },
+    {
+      "file": "sun18_baby_elephant.webp",
+      "title": "Baby Elephant"
+    },
+    {
+      "file": "sun19_raccoon_gardener.webp",
+      "title": "Raccoon Gardener"
+    },
+    {
+      "file": "sun20_lion_cub_prince.webp",
+      "title": "Lion Cub Prince"
+    },
+    {
+      "file": "sun21_squirrel_in_a_sweater.webp",
+      "title": "Squirrel in a Sweater"
+    },
+    {
+      "file": "sun22_baby_fawn.webp",
+      "title": "Baby Fawn"
+    },
+    {
+      "file": "sun23_happy_chimp.webp",
+      "title": "Happy Chimp"
+    },
+    {
+      "file": "sun24_panda_pair.webp",
+      "title": "Panda Pair"
+    },
+    {
+      "file": "sun25_elephant_splash.webp",
+      "title": "Elephant Splash"
+    },
+    {
+      "file": "sun26_fawn_friends.webp",
+      "title": "Fawn Friends"
+    },
+    {
+      "file": "sun27_king_of_the_hills.webp",
+      "title": "King of the Hills"
+    },
+    {
+      "file": "sun28_jungle_tiger.webp",
+      "title": "Jungle Tiger"
     }
   ]
 }
